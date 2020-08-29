@@ -3,4 +3,9 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="result_background">#202020</color>
+    <color name="result_color">#D0D040</color>
+    <color name="action_background">#F08040</color>
+    <color name="number_background">#E0E0E0</color>
+    <color name="button_border">#808080</color>
 </resources>
