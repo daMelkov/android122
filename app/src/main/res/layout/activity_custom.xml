@@ -7,6 +7,14 @@
     android:layout_height="match_parent"
     android:padding="16dp">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/select_image"
+        app:layout_constraintBottom_toTopOf="@+id/select_image"
+        tools:layout_editor_absoluteX="16dp" />
+
     <EditText
         android:id="@+id/select_image"
         android:layout_width="match_parent"

@@ -26,7 +26,7 @@
     <string name="letter_o">O</string>
     <string name="letter_v">V</string>
     <string name="settings">Настройки</string>
-    <string name="select_image">Выберите изображение</string>
+    <string name="select_image">Укажите имя файла с картинкой из папки Downloads</string>
     <string name="ok">Готово</string>
     <string name="background">Фоновое изображение</string>
 </resources>
