@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
-    android:layout_width="match_parent" >
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <Button
         android:id="@+id/button_change_view"
@@ -11,11 +12,13 @@
 
     <ImageView
         android:layout_height="match_parent"
-        android:layout_width="match_parent" />
+        android:layout_width="match_parent"
+        android:contentDescription="@string/background"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/image001" />
 
     <include
         android:id="@+id/engineer_view"
-        android:visibility="visible"
         layout="@layout/engineer" />
 
 </FrameLayout>

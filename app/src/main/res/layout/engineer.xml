@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="72sp"
-        android:background="@color/result_background"
         android:textColor="@color/result_color"
         android:gravity="end"
         android:text="@string/zero"
@@ -28,8 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:orientation="vertical"
-            android:background="@color/number_background" >
+            android:orientation="vertical" >
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -139,8 +138,7 @@
                     android:id="@+id/button_point"
                     android:layout_weight="2"
                     android:text="@string/point"
-                    style="@style/ButtonStyle"
-                    android:layout_width="0dp" />
+                    style="@style/ButtonStyle" />
 
             </LinearLayout>
 
@@ -150,34 +148,33 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="3"
-            android:orientation="vertical"
-            android:background="@color/action_background">
+            android:orientation="vertical" >
 
             <Button
                 android:id="@+id/button_divide"
                 android:text="@string/divide"
-                style="@style/ActionButton"/>
+                style="@style/ButtonStyle"/>
 
             <Button
                 android:id="@+id/button_multiplier"
                 android:text="@string/multiplier"
-                style="@style/ActionButton"/>
+                style="@style/ButtonStyle"/>
 
             <Button
                 android:id="@+id/button_minus"
                 android:text="@string/minus"
-                style="@style/ActionButton"/>
+                style="@style/ButtonStyle"/>
 
             <Button
                 android:id="@+id/button_plus"
                 android:text="@string/plus"
-                style="@style/ActionButton"/>
+                style="@style/ButtonStyle"/>
 
             <Button
                 android:id="@+id/button_equals"
                 android:text="@string/equals"
-                style="@style/ActionButton"/>
+                style="@style/ButtonStyle"/>
 
         </LinearLayout>
     </LinearLayout>
-</RelativeLayout>
+</LinearLayout>

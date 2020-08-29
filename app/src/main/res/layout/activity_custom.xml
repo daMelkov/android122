@@ -18,7 +18,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.373"
         android:autofillHints="@string/select_image"
-        android:inputType="textLongMessage" />
+        android:inputType="textLongMessage"
+        tools:ignore="LabelFor" />
 
     <Button
         android:id="@+id/button_ok"
